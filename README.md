@@ -2,8 +2,6 @@
 
 An end-to-end data pipeline on AWS that combines **historical CSV data** with **new orders pulled incrementally from an ordering API**, transforms everything with **PySpark** into a **star-schema data warehouse** (Parquet on S3), and exposes it for SQL analytics through **Amazon Athena**.
 
-> Individual project built during Samsung Innovation Campus (Big Data track).
-
 ---
 
 ## Architecture
